@@ -1,5 +1,4 @@
 #include <iostream>
-#pragma once
 #include "Time.h"
 
 int minutesSinceMidnight(Time time) {
