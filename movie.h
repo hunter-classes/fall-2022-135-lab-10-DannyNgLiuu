@@ -6,14 +6,14 @@ enum Genre {ACTION, COMEDY, DRAMA, ROMANCE, THRILLER};
 class Movie { 
 public: 
     std::string title;
-    Genre genre;     // only one genre per movie
-    int duration;    // in minutes
+    Genre genre;
+    int duration;
 };
 
 class TimeSlot { 
 public: 
-    Movie movie;     // what movie
-    Time startTime;  // when it starts
+    Movie movie;
+    Time startTime;
 };
 
 std::string getTimeSlot(TimeSlot ts);
