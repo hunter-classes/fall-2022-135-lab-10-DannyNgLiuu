@@ -34,4 +34,9 @@ if(test4) {
     std::cout << "false\n";
 }
 return 0;
+
+if("Back to the Future COMEDY (116 min) [starts at 9:15, ends by 11:11]"
+ == "Back to the Future COMEDY (116 min) [starts at 9:15, ends by 11:11]") {
+    std::cout << "hi";
+ }
 }
